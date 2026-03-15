@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak – SMA Negeri 6 Kota Depok</title>
+  <style>
+    body { font-family: Times New Roman, serif; font-size: 14px; margin: 0; padding: 0; background: #fff; color: #000; }
+
+    .site-header { padding: 10px 20px 6px; border-bottom: 3px double #000; }
+    .site-header h1 { font-size: 22px; margin: 0 0 2px; }
+    .site-header .tagline { font-size: 12px; font-style: italic; color: #444; }
+
+    nav { padding: 4px 20px; border-bottom: 1px solid #999; }
+    nav ul { list-style: disc; margin: 4px 0; padding-left: 20px; }
+    nav ul li a { color: #00c; text-decoration: none; font-size: 13px; }
+    nav ul li a:hover { text-decoration: underline; }
+    nav ul li a.active { color: purple; font-weight: bold; }
+
+    .page-body { display: flex; align-items: flex-start; padding: 14px 20px; }
+
+    .sidebar { width: 180px; min-width: 180px; margin-right: 18px; font-size: 13px; }
+    .sidebar .box { border: 1px solid #999; margin-bottom: 10px; }
+    .sidebar .box-title { background: #ddd; border-bottom: 1px solid #999; padding: 4px 8px; font-weight: bold; font-size: 13px; }
+    .sidebar .box ul { list-style: none; margin: 0; padding: 0; }
+    .sidebar .box ul li { border-bottom: 1px solid #eee; }
+    .sidebar .box ul li a { display: block; padding: 4px 8px; color: #00c; text-decoration: none; font-size: 12px; }
+    .sidebar .box ul li a:hover { background: #f0f0f0; text-decoration: underline; }
+    .sidebar .box .box-body { padding: 6px 8px; font-size: 12px; line-height: 1.6; color: #333; }
+
+    .content { flex: 1; }
+    h2 { font-size: 15px; margin: 0 0 8px; padding-bottom: 3px; border-bottom: 1px solid #999; }
+    h3 { font-size: 13px; font-weight: bold; margin: 10px 0 3px; }
+    p { margin: 4px 0; line-height: 1.7; font-size: 13px; }
+
+    .kontak-layout { display: flex; gap: 30px; align-items: flex-start; margin-top: 10px; }
+    .kontak-info { min-width: 200px; font-size: 13px; line-height: 1.7; }
+    .kontak-form { flex: 1; }
+
+    label { display: block; margin-top: 7px; margin-bottom: 2px; font-size: 13px; }
+    label span { color: red; }
+    input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+      width: 100%; padding: 3px 5px; font-size: 13px;
+      border: 1px solid #aaa; font-family: Times New Roman, serif;
+      box-sizing: border-box;
+    }
+    textarea { resize: vertical; height: 90px; }
+    input[type="submit"] {
+      margin-top: 8px; padding: 4px 14px; font-size: 13px;
+      cursor: pointer; background: #eee; border: 1px solid #aaa;
+      font-family: Times New Roman, serif;
+    }
+    input[type="submit"]:hover { background: #ddd; }
+
+    .catatan { font-size: 12px; font-style: italic; color: #444; margin-top: 8px; line-height: 1.6; }
+    .sukses { color: green; font-size: 13px; margin-top: 6px; display: none; }
+
+    hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
+
+    footer { border-top: 3px double #000; margin-top: 14px; padding: 8px 20px; text-align: center; font-size: 12px; color: #333; }
+  </style>
+</head>
+<body>
+
+<div class="site-header">
+  <h1>SMA Negeri 6 Kota Depok</h1>
+  <div class="tagline">Hexa Bisa 1! &nbsp;&mdash;&nbsp; Unggul dalam Prestasi, Mulia dalam Budi Pekerti</div>
+</div>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="jurusan.html">Jurusan</a></li>
+    <li><a href="kontak.html" class="active">Kontak</a></li>
+  </ul>
+</nav>
+
+<div class="page-body">
+
+  <div class="sidebar">
+    <div class="box">
+      <div class="box-title">Navigasi</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jurusan.html">Jurusan</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div class="box">
+      <div class="box-title">Informasi</div>
+      <div class="box-body">
+        <b>Alamat:</b><br/>Jl. Raya Sawangan No.1<br/>Kota Depok, Jawa Barat<br/><br/>
+        <b>Telepon:</b><br/>(021) 12345678<br/><br/>
+        <b>Email:</b><br/>hexaofficial@<br/>sman6depok.sch.id<br/><br/>
+        <b>Jam Operasional:</b><br/>Senin–Jumat<br/>06.30 – 15.00 WIB
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Hubungi Kami</h2>
+
+    <div class="kontak-layout">
+
+      <div class="kontak-info">
+        <h3>Alamat Sekolah</h3>
+        <p>Jl. Raya Sawangan No.1<br/>
+        Kecamatan Sawangan<br/>
+        Kota Depok, Jawa Barat 16511<br/>
+        Indonesia</p>
+
+        <h3>Telepon</h3>
+        <p>(021) 12345678</p>
+
+        <h3>Email</h3>
+        <p>hexaofficial@sman6depok.sch.id</p>
+
+        <h3>Jam Operasional</h3>
+        <p>Senin – Jumat: 06.30 – 15.00 WIB<br/>
+        Sabtu: 07.00 – 12.00 WIB</p>
+      </div>
+
+      <div class="kontak-form">
+        <h3>Formulir Kontak</h3>
+
+        <label>Nama Lengkap <span>*</span></label>
+        <input type="text" id="nama" placeholder="Masukkan nama lengkap Anda"/>
+
+        <label>Email <span>*</span></label>
+        <input type="email" id="email" placeholder="contoh@email.com"/>
+
+        <label>Nomor Telepon <span>*</span></label>
+        <input type="tel" id="telepon" placeholder="08123456789"/>
+
+        <label>Kategori Pesan <span>*</span></label>
+        <select id="kategori">
+          <option value="">-- Pilih Kategori --</option>
+          <option>Informasi Pendaftaran</option>
+          <option>Akademik &amp; Kurikulum</option>
+          <option>Ekstrakurikuler</option>
+          <option>Fasilitas Sekolah</option>
+          <option>Lainnya</option>
+        </select>
+
+        <label>Subjek <span>*</span></label>
+        <input type="text" id="subjek" placeholder="Judul pesan Anda"/>
+
+        <label>Pesan <span>*</span></label>
+        <textarea id="pesan" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+
+        <input type="submit" value="Kirim Pesan" onclick="kirim()"/>
+        <div class="sukses" id="sukses">Pesan berhasil dikirim! Kami akan segera menghubungi Anda.</div>
+
+        <p class="catatan"><b>Catatan:</b> Jika Anda membutuhkan informasi lebih lanjut mengenai akademik, pendaftaran, atau kegiatan sekolah, jangan ragu menghubungi kami. Tim kami akan merespons dalam 1–2 hari kerja.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; SMA Negeri 6 Kota Depok. All Rights Reserved.<br/>
+  Jl. Raya Sawangan No.1, Kota Depok, Jawa Barat 16511<br/>
+  Telp: (021) 12345678 | Email: hexaofficial@sman6depok.sch.id
+</footer>
+
+<script>
+function kirim() {
+  var ids = ['nama','email','telepon','kategori','subjek','pesan'];
+  for (var i = 0; i < ids.length; i++) {
+    if (!document.getElementById(ids[i]).value.trim()) {
+      alert('Harap isi semua kolom yang bertanda bintang (*).');
+      return;
+    }
+  }
+  ids.forEach(function(id){ document.getElementById(id).value = ''; });
+  document.getElementById('sukses').style.display = 'block';
+  setTimeout(function(){ document.getElementById('sukses').style.display = 'none'; }, 4000);
+}
+</script>
+
+</body>
+</html>
